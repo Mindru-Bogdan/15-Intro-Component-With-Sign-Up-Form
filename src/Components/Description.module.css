@@ -1,21 +1,50 @@
-.descriptionCard {
-    position: absolute;
-    height: 100%;
-    width: 720px;
+@media all and (max-width: 1439px) {
+    .descriptionCard {
+        position: absolute;
+        height: 310px;
+        width: 100%;
+        top: 0;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 0px;
+        color: white;
+        font-size: 28px;
+        line-height: 35px;
+    }
+    
+    .description {
+        text-align: center;
+        margin: 28px 30px 0px 30px;
+        color: white;
+        font-size: 16px;
+        line-height: 25px;
+    }
 }
 
-h1 {
-    margin-top: 297px;
-    margin-left: 165px;
-    margin-bottom: 0px;
-    color: white;
-    font-size: 49px;
-    line-height: 55px;
+@media all and (min-width: 1440px) {
+    .descriptionCard {
+        position: absolute;
+        height: 100%;
+        width: 720px;
+    }
+    
+    h1 {
+        margin-top: 297px;
+        margin-left: 165px;
+        margin-bottom: 0px;
+        color: white;
+        font-size: 49px;
+        line-height: 55px;
+    }
+    
+    .description {
+        margin-top: 28px;
+        margin-left: 165px;
+        color: white;
+        font-size: 16px;
+    }
 }
 
-.description {
-    margin-top: 28px;
-    margin-left: 165px;
-    color: white;
-    font-size: 16px;
-}
