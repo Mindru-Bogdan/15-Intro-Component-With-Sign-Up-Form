@@ -1,0 +1,120 @@
+.submitCard {
+        position: absolute;
+        height: 100%;
+        width: 720px;
+        left: 50%;
+}
+
+.movingCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 555px;
+}
+
+.trial {
+    display: inline-block;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    box-shadow: 0px 8px hsl(249, 10%, 26%, 0.25);
+}
+
+h3 {
+    display: inline-block;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+h4 {
+    display: inline-block;
+    margin: 0px 0px 0px 5px;;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.form {
+    width: 555px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 8px hsl(249, 10%, 26%, 0.25);
+}
+
+input{
+    width: 433px;
+    margin-top: 20px;
+    margin-left: 45px;
+    padding: 16px 0px 16px 30px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    outline: none;
+    color: hsl(249, 10%, 26%);
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 700;
+}
+
+input::placeholder {
+    color: #69686c;
+    font-weight: 600;
+}
+
+input:focus {
+    border: 1px solid hsl(249, 10%, 26%);
+}
+
+.claim {
+    display: inline-block;
+    width: 465px;
+    margin-top: 20px;
+    margin-left: 45px;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    box-shadow: 0px 4px #32b87c;
+    cursor: pointer;
+}
+
+.claim:hover {
+    background-color: #77e2b4;
+    box-shadow: 0px 4px #6acfa2;
+}
+
+.firstName {
+    margin-top: 40px;
+}
+
+.terms {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 11px;
+}
+
+.termsGrey {
+    display: inline-block;
+    margin-top: 5px;
+    color: hsl(246, 25%, 77%);
+    font-weight: 400;
+}
+
+.termsGreen {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 4px;
+    color: #32b87c;
+    font-weight: 700;
+}
